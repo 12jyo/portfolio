@@ -1,5 +1,5 @@
-import { FaGlobe, FaReact, FaDatabase, FaCode, FaServer, FaJava } from "react-icons/fa";
-import { SiAntdesign, SiNodedotjs, SiExpress, SiMongodb, SiTestinglibrary, SiMysql, SiSpring,SiPostgresql  } from "react-icons/si";
+import { FaReact, FaCode } from "react-icons/fa";
+import { SiAntdesign, SiNodedotjs, SiExpress, SiMongodb, SiTestinglibrary } from "react-icons/si";
 
 // Features Data
 export const featuresData = [

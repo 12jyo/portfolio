@@ -1,6 +1,3 @@
-import React from 'react'
-import { HiArrowRight } from "react-icons/hi";
-
 const Card = ({item:{title,des,icon}}) => {
   return (
     <div className="w-10/12 m-auto justify-center lg:w-full h-80 py-10 rounded-lg flex items-center bg-gradient-to-r from-[#0A0118] to-[#140033] group hover:bg-gradient-to-b hover:from-[#0A0118] hover:to-[#fb0052] transition-colors duration-100 group featureDiv px-8 lg:px-12">

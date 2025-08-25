@@ -1,9 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title';
-import { SiExpress, SiMongodb, SiNodedotjs } from 'react-icons/si';
-import { FaReact } from 'react-icons/fa';
 import { skillsData } from '../../data/data';
-import Card from '../features/Card';
 import { profileThree } from '../../assets';
 
 const BestSkills = () => {

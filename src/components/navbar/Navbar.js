@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo, profileOne, profilePhoto} from "../../assets/index"
+import { FaLinkedinIn } from "react-icons/fa";
+import {profileOne} from "../../assets/index"
 import { navLinksdata } from '../../constants';
 
 const Navbar = () => {
@@ -11,11 +11,11 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 mx-auto flex justify-between items-center font-titleFont navbar">
       <div style={{fontFamily:'sans-serif', fontSize:'30px', display:'flex', alignItems:'center'}}>
-        <img
+        {/* <img
           className='w-10 h-10'
-          // src={profilePhoto}
-          // alt="profilePhoto"
-        />
+          src={profilePhoto}
+          alt="profilePhoto"
+        /> */}
         <b style={{color:'white'}}>PORT</b><b style={{color:'#fb0052'}}>FOLIO</b>
       </div>
       <div>
