@@ -9,10 +9,10 @@ const Media = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon bg-gradient-to-r from-[#0A0118] to-[#140033]" onClick={()=>window.open('https://twitter.com/Vishal76027938', '_blank')}>
+            {/* <span className="bannerIcon bg-gradient-to-r from-[#0A0118] to-[#140033]" onClick={()=>window.open('https://twitter.com/Vishal76027938', '_blank')}>
               <FaTwitter />
-            </span>
-            <span className="bannerIcon bg-gradient-to-r from-[#0A0118] to-[#140033]" onClick={()=>window.open('https://www.linkedin.com/in/vishal-boine-215596199/', '_blank')}>
+            </span> */}
+            <span className="bannerIcon bg-gradient-to-r from-[#0A0118] to-[#140033]" onClick={()=>window.open('https://www.linkedin.com/in/jyoti-gupta-17a6601b3', '_blank')}>
               <FaLinkedinIn />
             </span>
           </div>

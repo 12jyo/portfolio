@@ -80,10 +80,10 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="contactIcon text-designColor bg-gradient-to-r from-[#0A0118] to-[#140033] hover:bg-gradient-to-l hover:from-[#0A0118] hover:to-[#fb0052] hover:text-white" onClick={()=>window.open('https://twitter.com/Vishal76027938', '_blank')}>
+                  {/* <span className="contactIcon text-designColor bg-gradient-to-r from-[#0A0118] to-[#140033] hover:bg-gradient-to-l hover:from-[#0A0118] hover:to-[#fb0052] hover:text-white" onClick={()=>window.open('https://twitter.com/Vishal76027938', '_blank')}>
                     <FaTwitter />
-                  </span>
-                  <span className="contactIcon text-designColor bg-gradient-to-r from-[#0A0118] to-[#140033] hover:bg-gradient-to-l hover:from-[#0A0118] hover:to-[#fb0052] hover:text-white" onClick={()=>window.open('https://www.linkedin.com/in/vishal-boine-215596199/', '_blank')}>
+                  </span> */}
+                  <span className="contactIcon text-designColor bg-gradient-to-r from-[#0A0118] to-[#140033] hover:bg-gradient-to-l hover:from-[#0A0118] hover:to-[#fb0052] hover:text-white" onClick={()=>window.open('https://www.linkedin.com/in/jyoti-gupta-17a6601b3', '_blank')}>
                     <FaLinkedinIn />
                   </span>
                 </div>
