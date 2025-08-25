@@ -1,7 +1,7 @@
 
-import projectOne from "./images/projects/projectOne.png";
-import projectTwo from "./images/projects/projectTwo.jpg";
-import projectThree from "./images/projects/projectThree.png";
+import projectOne from "./images/projects/projectOne.webp";
+import projectTwo from "./images/projects/projectTwo.webp";
+import projectThree from "./images/projects/projectThree.webp";
 import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";

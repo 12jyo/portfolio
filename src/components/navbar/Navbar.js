@@ -13,8 +13,8 @@ const Navbar = () => {
       <div style={{fontFamily:'sans-serif', fontSize:'30px', display:'flex', alignItems:'center'}}>
         <img
           className='w-10 h-10'
-          src={profilePhoto}
-          alt="profilePhoto"
+          // src={profilePhoto}
+          // alt="profilePhoto"
         />
         <b style={{color:'white'}}>PORT</b><b style={{color:'#fb0052'}}>FOLIO</b>
       </div>

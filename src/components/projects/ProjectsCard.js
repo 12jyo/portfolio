@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
-const ProjectsCard = ({ title, des, src, url, isGlobeIcon }) => {
+const ProjectsCard = ({ title, des, src, url, isGlobeIcon, globeUrl='' }) => {
   return (
     <div className="w-10/12 m-auto lg:w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg flex flex-col bg-gradient-to-r from-[#0A0118] to-[#140033] hover:bg-gradient-to-l hover:from-[#0A0118] hover:to-[#fb0052] hover:text-white transition-colors duration-1000 projectDiv">
       <div className="w-full h-[80%] overflow-hidden rounded-lg">
@@ -21,7 +21,7 @@ const ProjectsCard = ({ title, des, src, url, isGlobeIcon }) => {
               <span className="text-lg w-10 h-10 rounded-full bg-[#0a0118] inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer" onClick={()=> window.open(url, '_blank')}>
                 <BsGithub/>
               </span>
-              {isGlobeIcon && <span className="text-lg w-10 h-10 rounded-full bg-[#0a0118] inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer" onClick={()=> window.open('https://codebusters.neofinancials.com/', '_blank')}>
+              {isGlobeIcon && <span className="text-lg w-10 h-10 rounded-full bg-[#0a0118] inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer" onClick={()=> window.open(globeUrl, '_blank')}>
                 <FaGlobe />
               </span>}
             </div>

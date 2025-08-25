@@ -3,7 +3,9 @@ import React from 'react'
 const Title = ({ title, des, src }) => {
   return (
     <div className='flex flex-row gap-4'>
-      {src && <img className='w-20 h-20' style={{"marginTop":'-1rem'}} src={src} alt={'memoji'} />}
+      {/* {src && <img className='w-20 h-20' style={{"marginTop":'-1rem'}} 
+      src={src} alt={'memoji'} 
+      />} */}
       <div className="flex flex-col gap-4 font-titleFont mb-14">
         {/* <h3 className="text-l uppercase font-light  text-designColor tracking-wide">
           {title}

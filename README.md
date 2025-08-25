@@ -100,7 +100,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 Feel free to reach out to me through the contact form on my portfolio or via email:
 
-- **Name**: Vishal Boine
+- **Name**: Jyoti Gupta
 - **Email**: raov38131@gmail.com
 - **LinkedIn**: [Vishal's Profile](http://www.linkedin.com/in/vishal-boine-215596199)
 - **GitHub**: [https://github.com/vishalboine](https://github.com/vishalboine)

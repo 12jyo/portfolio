@@ -18,25 +18,28 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="IMPORT WIZARDS"
-          des="  web application to facilitate import of Excel files and display data in a table format on web pages. Runner-up in company wide Hackathon!"
+          title="CHAT AGENT"
+          des=" A React-based chatbot interface powered by Anthropic's Claude API. It features persistent chat history, API key management, and a modern responsive UI. Built using Vite, Tailwind CSS, and TypeScript.!"
           src={projectOne}
-          url={'https://github.com/vishalboine/codebusters'}
+          url={'https://github.com/12jyo/Chat-Agent'}
           isGlobeIcon = {true}
+          globeUrl= {'https://conversational-interface.netlify.app/'}
         />
         <ProjectsCard
-          title="SOCIAL APP"
-          des=" Developed backend functionalities for social media platform: user authentication, post creation, likes, comments, following, and session management!"
+          title="SPACEX MISSION TRACKER"
+          des=" A React-based application that fetches and displays launch data from the SpaceX API, featuring authentication, enriched detail views, and deep linking. Built with Mantine UI, React Query, Zustand, and React Router."
           src={projectTwo}
-          url={'https://github.com/vishalboine/social-app-backend-mern'}
-          isGlobeIcon = {false}
+          url={'https://github.com/12jyo/spacex-mission-tracker'}
+          isGlobeIcon = {true}
+          globeUrl= {'https://spacecraze.netlify.app/'}
         />
         <ProjectsCard
-          title="IMAGIFY"
-          des=" Implemented secure image uploads with grayscale and sepia filters, ensuring server-side storage, processing, and enhanced data integrity!"
+          title="SCRATCH STARTER"
+          des=" An interactive visual playground inspired by Scratch, built with React, Vite, and Framer Motion. This tool allows users to create, move, animate, and control sprites with a simplified command interface."
           src={projectThree}
-          url={'https://github.com/vishalboine/Imagify'}
-          isGlobeIcon = {false}
+          url={'https://github.com/12jyo/scratch-starter'}
+          isGlobeIcon = {true}
+          globeUrl= {'https://scratchy-launcher.netlify.app/'}
         />
       </div>
     </section>
